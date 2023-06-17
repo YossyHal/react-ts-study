@@ -4,10 +4,28 @@
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.exclude": {
-        "**/yarn.locl": true,
+        "**/yarn.lock": true,
         "**/node_modules": true,
         ".gitattributes": true,
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.prettierPath": "./node_modules/prettier",
+    "[graphql]": {
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    }
 }
