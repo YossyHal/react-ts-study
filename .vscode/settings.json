@@ -1,0 +1,11 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/yarn.locl": true,
+        "**/node_modules": true,
+        ".gitattributes": true,
+    },
+}
